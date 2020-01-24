@@ -1,0 +1,125 @@
+<html>
+<head>
+    <script src="Elevator.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="Elevator.css">
+</head>
+<body>
+<table id="building">
+    <tr>
+        <td></td>
+        <td>
+            <span id="f6d"></span>
+            <br />
+            <span id="f6cf"></span>
+            <a href="#" onclick='callElevator(6)'>C6</a><br />
+        </td>
+        <td>
+            <div id="elevatorB" class="elevator">
+                <div id="panelB" class="panel">
+                    <a href="#" onclick="b.move(0);">0</a>
+                    <a href="#" onclick="b.move(1);">1</a>
+                    <a href="#" onclick="b.move(2);">2</a>
+                    <a href="#" onclick="b.move(3);">3</a>
+                    <a href="#" onclick="b.move(4);">4</a>
+                    <a href="#" onclick="b.move(5);">5</a>
+                    <a href="#" onclick="b.move(6);">6</a>
+                </div>
+                <br /><br />
+                <div id="displayB" class="display">
+                    <span class="displayN" id="dB0">0</span>
+                    <span class="displayN" id="dB1">1</span>
+                    <span class="displayN" id="dB2">2</span>
+                    <span class="displayN" id="dB3">3</span>
+                    <span class="displayN" id="dB4">4</span>
+                    <span class="displayN" id="dB5">5</span>
+                    <span class="displayN cf" id="dB6">6</span>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span id="f5d"></span>
+            <br />
+            <span id="f5cf"></span>
+            <a href="#" onclick='callElevator(5)'>C5</a><br />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span id="f4d"></span>
+            <br />
+            <span id="f4cf"></span>
+            <a href="#" onclick='callElevator(4)'>C4</a><br />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span id="f3d"></span>
+            <br />
+            <span id="f3cf"></span>
+            <a href="#" onclick='callElevator(3)'>C3</a><br />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span id="f2d"></span>
+            <br />
+            <span id="f2cf"></span>
+            <a href="#" onclick='callElevator(2)'>C2</a><br />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span id="f1d"></span>
+            <br />
+            <span id="f1cf"></span>
+            <a href="#" onclick='callElevator(1)'>C1</a><br />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <div id="elevatorA" class="elevator">
+                <div id="panelA" class="panel">
+                    <a href="#" onclick="a.move(0);">0</a>
+                    <a href="#" onclick="a.move(1);">1</a>
+                    <a href="#" onclick="a.move(2);">2</a>
+                    <a href="#" onclick="a.move(3);">3</a>
+                    <a href="#" onclick="a.move(4);">4</a>
+                    <a href="#" onclick="a.move(5);">5</a>
+                    <a href="#" onclick="a.move(6);">6</a>
+                </div>
+                <br /><br />
+                <div id="displayA" class="display">
+                    <span class="displayN cf" id="dA0">0</span>
+                    <span class="displayN" id="dA1">1</span>
+                    <span class="displayN" id="dA2">2</span>
+                    <span class="displayN" id="dA3">3</span>
+                    <span class="displayN" id="dA4">4</span>
+                    <span class="displayN" id="dA5">5</span>
+                    <span class="displayN" id="dA6">6</span>
+                </div>
+            </div>
+        </td>
+        <td>
+            <span id="f0d"></span>
+            <br />
+            <span id="f0cf"></span>
+            <a href="#" onclick='callElevator(0)'>C0</a>
+        </td>
+        <td></td>
+    </tr>
+</table>
+<div id="log"></div>
+</body>
+</html>
